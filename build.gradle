@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application' version '4.2.2'
+    id 'org.jetbrains.kotlin.android' version '1.9.0'
+}
+
+
+android {
+    compileSdkVersion 34
+    // Other Android configurations go here
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.10.1'
+    // Other dependencies go here
+}
